@@ -1,0 +1,8 @@
+{
+  "name": "Crown Restaurant AR Menu",
+  "description": "An augmented reality dining experience for the Crown Restaurant & Cafe. Browse menu items and view them in 3D on your table.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "prompt": ""
+}
