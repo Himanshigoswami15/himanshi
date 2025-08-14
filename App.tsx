@@ -1,7 +1,4 @@
 
-
-
-
 import React, { useState, useEffect, useCallback } from 'react';
 import { Dish, MenuCategory } from './types';
 import { MENU_DATA } from './constants/menuData';
@@ -49,7 +46,7 @@ const Header = () => (
         <h1 className="text-4xl md:text-6xl font-serif text-gold text-shadow-gold tracking-wider">
             Crown Restaurant & Cafe
         </h1>
-        <p className="text-gray-400 mt-2 text-sm md:text-base">An Augmented Reality Dining Experience</p>
+        <p className="text-gray-400 mt-2 text-sm md:text-base">Hungry? You’re in the right place.</p>
     </header>
 );
 
