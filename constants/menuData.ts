@@ -38,7 +38,7 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     title: "Cold Coffee",
-    featuredImage: "https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    featuredImage: "https://bigycloud.relationshop.net/RSData/recipe/20230228145804_fdjxz32mhk0_frozenchocmudslide400x400.jpg",
     dishes: [
       { name: "Café Frappe", price: "₹109", image: "https://images.pexels.com/photos/1666816/pexels-photo-1666816.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Cold coffee blended with ice cream and topped with whipped cream." },
       { name: "Hazelnut Frappe", price: "₹119", image: "https://images.pexels.com/photos/4079520/pexels-photo-4079520.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Frappe blended with Hazelnut for a sweet and nutty delight." },
@@ -51,14 +51,16 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     title: "Mocktails",
-    featuredImage: "https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    featuredImage: "https://img.freepik.com/premium-photo/selection-colorful-mocktails_941600-17032.jpg?w=2000",
     dishes: [
       { name: "The Country Lemonade", price: "₹99", image: "https://images.pexels.com/photos/1200354/pexels-photo-1200354.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Simple, classic, and perfectly refreshing. A timeless blend of fresh-squeezed lemons and sugar." },
+      { name: "Thunderbolt", price: "₹99", image: "https://images.pexels.com/photos/1187766/pexels-photo-1187766.jpeg?auto=compress&cs=tinysrgb&w=400", description: "An electrifying mix of citrus and secret ingredients, giving a jolt of refreshment." },
       { name: "Blue Ocean", price: "₹109", image: "https://images.pexels.com/photos/2775835/pexels-photo-2775835.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Chilled and refreshing Blue Curacao mocktail is smooth and best served iced cold." },
       { name: "Orange Mojito", price: "₹109", image: "https://images.pexels.com/photos/775030/pexels-photo-775030.jpeg?auto=compress&cs=tinysrgb&w=400", description: "A sunny twist on a classic with the sweetness of orange and lemon." },
       { name: "Strawberry Bliss", price: "₹109", image: "https://images.pexels.com/photos/3434629/pexels-photo-3434629.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Sweetness of Strawberry flavor with crushed ice topped with soda." },
       { name: "Green apple soda Mojito", price: "₹119", image: "https://images.pexels.com/photos/616851/pexels-photo-616851.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Mint and mojito with brown sugar topped with Fizz." },
       { name: "Kiwi Classic", price: "₹119", image: "https://images.pexels.com/photos/839641/pexels-photo-839641.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Freshness of green apple with fizz of soda." },
+      { name: "Classic Mojito", price: "₹119", image: "https://images.pexels.com/photos/4784/alcohol-bar-cocktail-cocktails.jpg?auto=compress&cs=tinysrgb&w=400", description: "The timeless classic. A refreshing blend of mint, lime, and soda water." },
       { name: "Crown Cafe Special", price: "₹129", image: "https://images.pexels.com/photos/2480828/pexels-photo-2480828.jpeg?auto=compress&cs=tinysrgb&w=400", description: "A delicate combination of Kiwi, green apple and mildly flavored with lemon juice." }
     ]
   },
@@ -94,14 +96,17 @@ export const MENU_DATA: MenuCategory[] = [
     featuredImage: "https://images.pexels.com/photos/1343504/pexels-photo-1343504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     dishes: [
       { name: "Vanilla", price: "₹59", image: "https://images.pexels.com/photos/1352270/pexels-photo-1352270.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Classic and creamy vanilla ice cream." },
+      { name: "Pineapple", price: "₹69", image: "https://images.pexels.com/photos/1352274/pexels-photo-1352274.jpeg?auto=compress&cs=tinysrgb&w=400", description: "A tropical delight, creamy ice cream with the sweet and tangy taste of pineapple." },
       { name: "Strawberry", price: "₹69", image: "https://images.pexels.com/photos/1343504/pexels-photo-1343504.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Sweet and fruity strawberry ice cream." },
+      { name: "Chocolate", price: "₹69", image: "https://images.pexels.com/photos/108370/pexels-photo-108370.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Rich, classic, and decadent chocolate ice cream. A timeless favorite for all ages." },
       { name: "Cookies and Cream", price: "₹79", image: "https://images.pexels.com/photos/3631430/pexels-photo-3631430.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Vanilla ice cream with crushed chocolate sandwich cookies." },
-      { name: "Mango", price: "₹69", image: "https://images.pexels.com/photos/5213133/pexels-photo-5213133.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Tropical and refreshing mango ice cream." },
       { name: "Chocolate Chip", price: "₹79", image: "https://images.pexels.com/photos/4772847/pexels-photo-4772847.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Vanilla ice cream with chocolate chips." },
+      { name: "Mango", price: "₹69", image: "https://images.pexels.com/photos/5213133/pexels-photo-5213133.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Tropical and refreshing mango ice cream." },
       { name: "Butterscotch", price: "₹69", image: "https://images.pexels.com/photos/1352278/pexels-photo-1352278.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Rich and buttery butterscotch ice cream." },
       { name: "American Nuts", price: "₹69", image: "https://images.pexels.com/photos/2067425/pexels-photo-2067425.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Creamy ice cream loaded with a mix of nuts." },
       { name: "Kesar Pista", price: "₹69", image: "https://images.pexels.com/photos/8314413/pexels-photo-8314413.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Saffron and pistachio flavored Indian ice cream." },
       { name: "Kesar Mohini", price: "₹69", image: "https://images.pexels.com/photos/1625235/pexels-photo-1625235.jpeg?auto=compress&cs=tinysrgb&w=400", description: "A special saffron-based ice cream delicacy." },
+      { name: "Kaju Anjeer", price: "₹69", image: "https://images.pexels.com/photos/10389429/pexels-photo-10389429.jpeg?auto=compress&cs=tinysrgb&w=400", description: "A royal Indian treat, blending creamy ice cream with the rich flavors of cashews (Kaju) and figs (Anjeer)." },
       { name: "Sizzling Chocolate Brownie", price: "₹149", image: "https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Warm brownie topped with ice cream and chocolate sauce, served on a sizzling platter. (Must Try)" },
     ]
   },
@@ -127,8 +132,8 @@ export const MENU_DATA: MenuCategory[] = [
     ]
   },
   {
-    title: "Appetizers (Indian)",
-    featuredImage: "https://images.pexels.com/photos/11995819/pexels-photo-11995819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    title: "Fries & Pakoda",
+    featuredImage: "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     dishes: [
       { name: "French fry", price: "₹99", image: "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=400", description: "The classic finger food made with good old potatoes." },
       { name: "Mix Veg. Pakoda", price: "₹149", image: "https://images.pexels.com/photos/11995819/pexels-photo-11995819.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Assorted vegetables, batter-fried to golden perfection. A classic Indian snack." },
@@ -137,7 +142,7 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     title: "Tandoori Starters",
-    featuredImage: "https://images.pexels.com/photos/8313071/pexels-photo-8313071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    featuredImage: "https://www.successyeti.com/wp-content/uploads/2021/08/follow-this-super-easy-recipe-to-make-scrumptious-mutton-shami-kebabs.jpg",
     dishes: [
       { name: "Tandoori Aloo Chatpate", price: "₹149", image: "https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Potatoes marinated in spices and yogurt, grilled in a tandoor for a smoky flavor." },
       { name: "Hara Bhara Kebab", price: "₹159", image: "https://images.pexels.com/photos/8313071/pexels-photo-8313071.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Spinach, peas, and potato patties, spiced and shallow-fried." },
@@ -155,18 +160,27 @@ export const MENU_DATA: MenuCategory[] = [
     ]
   },
   {
-    title: "Chinese Starters",
+    title: "Chinese",
     featuredImage: "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     dishes: [
       { name: "Spring Rolls", price: "₹139", image: "https://images.pexels.com/photos/3662134/pexels-photo-3662134.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Deep fried savory with vegetable and herbs stuffing." },
+      { name: "Fried Rice", price: "₹129", image: "https://images.pexels.com/photos/1907097/pexels-photo-1907097.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Schezwan style (hot) fried rice with fresh vegetables." },
       { name: "Dragon Potato", price: "₹149", image: "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Crispy Potato, onion and capsicum tossed in spicy chilly and soya sauce." },
-      { name: "Veg Manchurian dry", price: "₹149", image: "https://images.pexels.com/photos/4871111/pexels-photo-4871111.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Crispy cauliflower fritters tossed in a tangy and savory Manchurian sauce." },
+      { name: "Veg Manchurian dry", price: "₹149", image: "https://images.pexels.com/photos/4871111/pexels-photo-4871111.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Cauliflower fritters dry." },
+      { name: "Chowmein", price: "₹159", image: "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Stir fried noodles with vegetables and savory sauces." },
+      { name: "Hakka Noodles", price: "₹159", image: "https://images.pexels.com/photos/10373053/pexels-photo-10373053.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Stir fried noodles with vegetables in Chinese sauces and condiments." },
+      { name: "Gobi Manchurian (Dry)", price: "₹159", image: "https://images.pexels.com/photos/13599026/pexels-photo-13599026.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Crispy cauliflower florets tossed in a tangy and savory Manchurian sauce." },
+      { name: "Veg Manchurian gravy", price: "₹159", image: "https://images.pexels.com/photos/8891147/pexels-photo-8891147.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Cauliflower fritters in thick spicy gravy." },
       { name: "Crispy Vegetables", price: "₹159", image: "https://images.pexels.com/photos/2544830/pexels-photo-2544830.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Stir fried vegetables with the choice of spicy/non spicy sauce." },
       { name: "Honey Chilly Potatoes", price: "₹159", image: "https://images.pexels.com/photos/13109311/pexels-photo-13109311.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Potatoes are tossed in honey with sweet and sour sauce." },
-      { name: "Veg lollipops", price: "₹169", image: "https://images.pexels.com/photos/1247656/pexels-photo-1247656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Lollipops loaded with lots of veggies in tangy sauce." },
+      { name: "Chinese Bhel", price: "₹159", image: "https://images.pexels.com/photos/9609858/pexels-photo-9609858.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Medley of crispy fried noodles, spring onions, cabbage and chilly garlic sauce." },
+      { name: "Veg lollipops", price: "₹169", image: "https://images.pexels.com/photos/1247656/pexels-photo-1247656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Lollipops loaded with lots of veggies in tangy and spicy sauce." },
+      { name: "Chilli Garlic Noodles", price: "₹169", image: "https://images.pexels.com/photos/7627415/pexels-photo-7627415.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Stir-fried noodles tossed with fiery red chillies and pungent garlic for a spicy kick." },
       { name: "Veg 65", price: "₹169", image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Crispy fingers of minced vegetables tossed with traditional Chinese sauce." },
-      { name: "Corn & Paneer Fritters", price: "₹169", image: "https://images.pexels.com/photos/111131/pexels-photo-111131.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Crispy corn and cottage cheese tossed in soy sauce, garlic and ginger." },
-      { name: "Chilli Paneer (Dry)", price: "₹189", image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Fresh Cottage cheese with a capsicum, chilies in a spicy sauce." },
+      { name: "Corn & Paneer Fritters", price: "₹169", image: "https://images.pexels.com/photos/111131/pexels-photo-111131.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Crispy corn and cottage cheese tossed in soya sauce, garlic and ginger." },
+      { name: "Chilli Paneer", price: "₹189", image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Fresh Cottage cheese with a capsicum, chilies in a spicy sauce." },
+      { name: "Paneer 65", price: "₹189", image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Crisp fried Cottage cheese chunks salted and seasoned in spicy paste." },
+      { name: "Chinese Platter", price: "₹249", image: "https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Combination of Choice of Noodles/Fried rice, spring rolls and Manchurian." },
     ]
   },
    {
@@ -183,9 +197,10 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     title: "Maggi",
-    featuredImage: "https://images.pexels.com/photos/11547466/pexels-photo-11547466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    featuredImage: "https://i.pinimg.com/originals/c2/f1/59/c2f159053d7f0565b4043c8ae7ae2cac.jpg",
     dishes: [
       { name: "Plane Maggi", price: "₹69", image: "https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Classic instant noodles, a simple and comforting favorite." },
+      { name: "home maggi", price: "₹69", image: "https://images.pexels.com/photos/10398075/pexels-photo-10398075.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Just like mom makes it. Simple, comforting, and delicious." },
       { name: "Veg. Maggi", price: "₹79", image: "https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Maggi noodles cooked with a medley of fresh vegetables." },
       { name: "Masala Maggi", price: "₹89", image: "https://images.pexels.com/photos/8963459/pexels-photo-8963459.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Maggi noodles cooked with extra spices for a flavorful kick." },
       { name: "Cheese Maggi", price: "₹109", image: "https://images.pexels.com/photos/606553/pexels-photo-606553.jpeg?auto=compress&cs=tinysrgb&w=400", description: "A cheesy delight! Maggi noodles cooked with a generous amount of melted cheese." },
@@ -217,7 +232,7 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     title: "Sandwiches",
-    featuredImage: "https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    featuredImage: "https://www.datocms-assets.com/20941/1606228913-sandwich-superstars-feature-image.jpeg?auto=format?&fp-debug=false&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&w=350&h=320&dpr=2",
     dishes: [
       { name: "Cheese corn Sandwiches", price: "₹119", image: "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=400", description: "A delicious grilled sandwich filled with a creamy mixture of cheese and corn." },
       { name: "Veg. Cheese Chilli sandwiches", price: "₹139", image: "https://images.pexels.com/photos/2227776/pexels-photo-2227776.jpeg?auto=compress&cs=tinysrgb&w=400", description: "A spicy and cheesy sandwich with a filling of chili, cheese, and vegetables." },
@@ -236,7 +251,7 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     title: "Garlic Breads",
-    featuredImage: "https://images.pexels.com/photos/6605650/pexels-photo-6605650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    featuredImage: "https://diyjoy.com/wp-content/uploads/2024/06/Best-Cheesy-Garlic-Bread-Recipe-1024x576.jpg",
     dishes: [
       { name: "Cheese Chilli Toast (CCT)", price: "₹109", image: "https://images.pexels.com/photos/8141381/pexels-photo-8141381.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Toasted bread topped with cheese and spicy green chilies." },
       { name: "Cheese Garlic Bread", price: "₹119", image: "https://images.pexels.com/photos/3998144/pexels-photo-3998144.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Crusty bread smothered in garlic butter and topped with melted mozzarella cheese." },
@@ -246,7 +261,7 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     title: "Sizzlers",
-    featuredImage: "https://images.pexels.com/photos/604969/pexels-photo-604969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    featuredImage: "https://www.yummyfoodrecipes.com/resources/picture/org/Indian-Vegetable-Sizzler.jpg",
     dishes: [
       { name: "Chinese Platter", price: "₹249", image: "https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Combination of Choice of Noodles/Fried rice, spring rolls and Manchurian." },
       { name: "Paneer Shashlik Sizzler", price: "₹279", image: "https://images.pexels.com/photos/111131/pexels-photo-111131.jpeg?auto=compress&cs=tinysrgb&w=400", model: SHISHKEBAB_MODEL, description: "Served cottage cheese, vegetables and cutlet with french fries." },
@@ -256,7 +271,7 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     title: "Main Course (Paneer)",
-    featuredImage: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    featuredImage: "https://www.cubesnjuliennes.com/wp-content/uploads/2019/11/Paneer-Butter-Masala-Recipe-1.jpg",
     dishes: [
       { name: "Paneer Lababdar", price: "₹209", image: "https://images.pexels.com/photos/3979183/pexels-photo-3979183.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Cottage cheese in onion and tomato gravy finished with butter and cream." },
       { name: "Kadai Paneer", price: "₹209", image: "https://images.pexels.com/photos/9609835/pexels-photo-9609835.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Cottage cheese and capsicum in spicy, flavorful gravy." },
@@ -288,16 +303,17 @@ export const MENU_DATA: MenuCategory[] = [
       { name: "Shahi Gatta Curry", price: "₹159", image: "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Gram flour dumplings in a tangy yogurt-based curry." },
       { name: "Dum Aloo Kashmiri", price: "₹169", image: "https://images.pexels.com/photos/5639414/pexels-photo-5639414.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Stuffed potatoes in a flavorful red tomato gravy." },
       { name: "Aloo Do Pyaza", price: "₹169", image: "https://images.pexels.com/photos/12737919/pexels-photo-12737919.jpeg?auto=compress&cs=tinysrgb&w=400", description: "A simple yet flavorful dish from Awadh which the addition of onions twice to the dish." },
+      { name: "Crown Restaurant Spe.", price: "₹289", image: "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Our special house dal, a must-try." },
     ]
   },
   {
     title: "Main Course (Dal)",
-    featuredImage: "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    featuredImage: "https://www.funfoodfrolic.com/wp-content/uploads/2023/04/Dal-Makhani-Blog-768x768.jpg",
     dishes: [
       { name: "Dal Fry", price: "₹159", image: "https://images.pexels.com/photos/12842247/pexels-photo-12842247.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Yellow lentils tempered with spices." },
       { name: "Dal Tadka", price: "₹169", image: "https://images.pexels.com/photos/14885172/pexels-photo-14885172.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Tempered yellow lentils with zesty garlic flavor." },
       { name: "Dal Makhani", price: "₹189", image: "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Slow cooked black gram lentils, simmered overnight and finished with butter and cream." },
-      { name: "Crown Restaurant Spe.", price: "₹289", image: "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Our special house dal, a must-try." },
+      
     ]
   },
   {
@@ -312,7 +328,7 @@ export const MENU_DATA: MenuCategory[] = [
       { name: "Naan Butter", price: "₹30", image: "https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Soft leavened flatbread cooked in a tandoor, topped with butter." },
       { name: "Garlic Naan", price: "₹35", image: "https://images.pexels.com/photos/3754303/pexels-photo-3754303.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Naan flavored with garlic and cilantro." },
       { name: "Cheese Garlic Naan", price: "₹49", image: "https://images.pexels.com/photos/3754303/pexels-photo-3754303.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Naan stuffed with cheese and flavored with garlic." },
-      { name: "Crown Special Naan", price: "₹59", image: "https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Our special house naan." },
+      { name: "Crown Special Naan", price: "₹59", image: "https://images.pexels.com/photos/2955819/jpeg?auto=compress&cs=tinysrgb&w=400", description: "Our special house naan." },
       { name: "Laccha Paratha", price: "₹29", image: "https://images.pexels.com/photos/4967390/pexels-photo-4967390.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Layered whole wheat bread, crispy and flaky." },
       { name: "Onion Stuff Kulcha", price: "₹49", image: "https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Soft leavened bread stuffed with spiced onions." },
       { name: "Paneer Stuff Kulcha", price: "₹49", image: "https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Soft leavened bread stuffed with spiced paneer." },
@@ -321,7 +337,7 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     title: "Rice & Biryani",
-    featuredImage: "https://images.pexels.com/photos/9551325/pexels-photo-9551325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    featuredImage: "https://tse1.mm.bing.net/th/id/OIP.Tzz2wqMGwkBYV571aVfN5wHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     dishes: [
       { name: "Steamed Rice", price: "₹109", image: "https://images.pexels.com/photos/1305063/pexels-photo-1305063.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Perfectly steamed, fluffy white rice." },
       { name: "Jeera Rice", price: "₹119", image: "https://images.pexels.com/photos/9551325/pexels-photo-9551325.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Basmati rice tempered with cumin seeds." },
@@ -332,7 +348,7 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     title: "Curd & Raita",
-    featuredImage: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2013%2F12%2F06%2F200905-r-dahi-indian-yogurt.jpg",
+    featuredImage: "https://img.freepik.com/premium-photo/topview-bowl-cream-cheese-with-natural-herbs-swirls-flavor-isolated-white-background_817921-2955.jpg",
     dishes: [
       { name: "Plain Dahi", price: "₹59", image: "https://images.pexels.com/photos/853005/pexels-photo-853005.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Simple, fresh, and creamy plain yogurt." },
       { name: "Boondi Raita", price: "₹79", image: "https://images.pexels.com/photos/8782352/pexels-photo-8782352.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Yogurt with small, crispy chickpea flour balls (boondi)." },

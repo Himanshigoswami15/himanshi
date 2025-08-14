@@ -1,6 +1,7 @@
 
 
 
+
 import React, { useState, useEffect, useCallback } from 'react';
 import { Dish, MenuCategory } from './types';
 import { MENU_DATA } from './constants/menuData';
@@ -192,7 +193,7 @@ export default function App() {
                             key={category.title} 
                             category={category} 
                             onSelectDish={handleSelectDish}
-                            isInitiallyOpen={index === 0}
+                            isInitiallyOpen={false}
                         />
                     ))}
                 </div>
