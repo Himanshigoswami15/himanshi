@@ -1,4 +1,3 @@
-
 import { MenuCategory } from '../types';
 
 // Using a few different models to make the menu more interesting.
@@ -162,6 +161,7 @@ export const MENU_DATA: MenuCategory[] = [
   {
     title: "Chinese",
     featuredImage: "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    video: "https://pin.it/1r7Pf5lAX",
     dishes: [
       { name: "Spring Rolls", price: "₹139", image: "https://images.pexels.com/photos/3662134/pexels-photo-3662134.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Deep fried savory with vegetable and herbs stuffing." },
       { name: "Fried Rice", price: "₹129", image: "https://images.pexels.com/photos/1907097/pexels-photo-1907097.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Schezwan style (hot) fried rice with fresh vegetables." },
@@ -209,7 +209,8 @@ export const MENU_DATA: MenuCategory[] = [
   },
   {
     title: "Pizzas",
-    featuredImage: "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    featuredImage: "",
+    video: "https://ik.imagekit.io/j1fgksdwx/Hailuo_Video_make%20this%20into%205%20sec%20steammed%20_448532137813946370.mp4",
     dishes: [
       { name: "Margherita Pizza", price: "₹149/179", image: "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&w=400", model: PIZZA_MODEL, description: "Fresh tomato sauce, mozzarella and basil." },
       { name: "Cheese & corn Pizza", price: "₹159/189", image: "https://images.pexels.com/photos/8254898/pexels-photo-8254898.jpeg?auto=compress&cs=tinysrgb&w=400", model: PIZZA_MODEL, description: "Fresh tomato sauce, mozzarella and corn." },
@@ -328,32 +329,37 @@ export const MENU_DATA: MenuCategory[] = [
       { name: "Naan Butter", price: "₹30", image: "https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Soft leavened flatbread cooked in a tandoor, topped with butter." },
       { name: "Garlic Naan", price: "₹35", image: "https://images.pexels.com/photos/3754303/pexels-photo-3754303.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Naan flavored with garlic and cilantro." },
       { name: "Cheese Garlic Naan", price: "₹49", image: "https://images.pexels.com/photos/3754303/pexels-photo-3754303.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Naan stuffed with cheese and flavored with garlic." },
-      { name: "Crown Special Naan", price: "₹59", image: "https://images.pexels.com/photos/2955819/jpeg?auto=compress&cs=tinysrgb&w=400", description: "Our special house naan." },
-      { name: "Laccha Paratha", price: "₹29", image: "https://images.pexels.com/photos/4967390/pexels-photo-4967390.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Layered whole wheat bread, crispy and flaky." },
-      { name: "Onion Stuff Kulcha", price: "₹49", image: "https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Soft leavened bread stuffed with spiced onions." },
-      { name: "Paneer Stuff Kulcha", price: "₹49", image: "https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Soft leavened bread stuffed with spiced paneer." },
-      { name: "Tandoori Bread Basket", price: "₹99", image: "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Assorted basket of tandoori Indian Breads includes Kuber Naan, Lachaa and Tandoori Roti." },
+      { name: "Crown Special Naan", price: "₹59", image: "https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Our house special naan, soft and fluffy." },
+      { name: "Missi Roti", price: "₹35", image: "https://images.pexels.com/photos/10372338/pexels-photo-10372338.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Flatbread made with a mixture of whole wheat and gram flour, spiced." },
+      { name: "Lachha Paratha", price: "₹45", image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Multi-layered whole wheat flatbread, crispy and flaky." },
+      { name: "Aloo Stuffed Paratha", price: "₹79", image: "https://images.pexels.com/photos/12737919/pexels-photo-12737919.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Paratha stuffed with a spiced potato mixture." },
+      { name: "Paneer Stuffed Paratha", price: "₹99", image: "https://images.pexels.com/photos/12737919/pexels-photo-12737919.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Paratha stuffed with a spiced paneer mixture." },
+      { name: "Mix Stuffed Paratha", price: "₹89", image: "https://images.pexels.com/photos/12737919/pexels-photo-12737919.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Paratha stuffed with a mix of vegetables and spices." },
+      { name: "Cheese Stuffed Naan", price: "₹129", image: "https://images.pexels.com/photos/3754303/pexels-photo-3754303.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Naan stuffed with a generous amount of cheese." },
+      { name: "Kashmiri Naan", price: "₹149", image: "https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Sweet and savory naan stuffed with dry fruits and nuts." },
+      { name: "Bread Basket", price: "₹399", image: "https://images.pexels.com/photos/10372338/pexels-photo-10372338.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Assortment of Roti, Naan, Lachha Paratha & Missi Roti." }
     ]
   },
   {
-    title: "Rice & Biryani",
-    featuredImage: "https://tse1.mm.bing.net/th/id/OIP.Tzz2wqMGwkBYV571aVfN5wHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    title: "Rice",
+    featuredImage: "https://images.pexels.com/photos/4194850/pexels-photo-4194850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     dishes: [
-      { name: "Steamed Rice", price: "₹109", image: "https://images.pexels.com/photos/1305063/pexels-photo-1305063.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Perfectly steamed, fluffy white rice." },
-      { name: "Jeera Rice", price: "₹119", image: "https://images.pexels.com/photos/9551325/pexels-photo-9551325.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Basmati rice tempered with cumin seeds." },
-      { name: "Green Peas Rice", price: "₹129", image: "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=400", description: "A fragrant rice dish cooked with green peas and mild spices." },
-      { name: "Veg Pulao", price: "₹149", image: "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Aromatic basmati rice cooked with mixed vegetables and spices." },
-      { name: "Biryani Subz", price: "₹179", image: "https://images.pexels.com/photos/12737919/pexels-photo-12737919.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Basmati rice cooked with rare Indian spices and vegetables." },
+      { name: "Steamed Rice", price: "₹119", image: "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Fluffy, steamed basmati rice." },
+      { name: "Jeera Rice", price: "₹139", image: "https://images.pexels.com/photos/12842247/pexels-photo-12842247.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Basmati rice tempered with cumin seeds." },
+      { name: "Veg Pulao", price: "₹159", image: "https://images.pexels.com/photos/4194850/pexels-photo-4194850.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Aromatic rice cooked with mixed vegetables and mild spices." },
+      { name: "Veg Biryani", price: "₹179", image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Fragrant basmati rice layered with spiced vegetables and herbs." },
+      { name: "Hyderabadi Biryani", price: "₹189", image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Spicy and aromatic biryani prepared in the traditional Hyderabadi style." },
+      { name: "Handi Biryani", price: "₹199", image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Biryani cooked in a clay pot (handi) for an earthy flavor." },
     ]
   },
   {
-    title: "Curd & Raita",
-    featuredImage: "https://img.freepik.com/premium-photo/topview-bowl-cream-cheese-with-natural-herbs-swirls-flavor-isolated-white-background_817921-2955.jpg",
+    title: "Accompaniments",
+    featuredImage: "https://images.pexels.com/photos/4663357/pexels-photo-4663357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     dishes: [
-      { name: "Plain Dahi", price: "₹59", image: "https://images.pexels.com/photos/853005/pexels-photo-853005.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Simple, fresh, and creamy plain yogurt." },
-      { name: "Boondi Raita", price: "₹79", image: "https://images.pexels.com/photos/8782352/pexels-photo-8782352.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Yogurt with small, crispy chickpea flour balls (boondi)." },
-      { name: "Vegetable Raita", price: "₹79", image: "https://images.pexels.com/photos/2067406/pexels-photo-2067406.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Yogurt mixed with finely chopped fresh vegetables and spices." },
-      { name: "Pineapple Raita", price: "₹89", image: "https://images.pexels.com/photos/691159/pexels-photo-691159.jpeg?auto=compress&cs=tinysrgb&w=400", description: "A sweet and savory raita with pineapple chunks." },
+      { name: "Plain Curd", price: "₹49", image: "https://images.pexels.com/photos/4663357/pexels-photo-4663357.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Fresh, creamy yogurt." },
+      { name: "Mix Veg Raita", price: "₹69", image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Yogurt mixed with chopped cucumber, tomato, and onions." },
+      { name: "Boondi Raita", price: "₹79", image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Yogurt with crispy fried gram flour balls (boondi)." },
+      { name: "Pineapple Raita", price: "₹89", image: "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=400", description: "Sweet and creamy yogurt with pineapple chunks." },
     ]
-  },
+  }
 ];

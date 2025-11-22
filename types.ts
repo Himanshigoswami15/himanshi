@@ -1,5 +1,4 @@
 
-
 export interface Dish {
   name: string;
   price: string;
@@ -12,4 +11,5 @@ export interface MenuCategory {
   title: string;
   dishes: Dish[];
   featuredImage: string;
+  video?: string;
 }

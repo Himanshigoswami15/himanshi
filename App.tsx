@@ -128,6 +128,7 @@ interface MenuSectionProps {
 
 const MenuSection = ({ category, onSelectDish, isInitiallyOpen }: MenuSectionProps) => {
   const [isOpen, setIsOpen] = useState(isInitiallyOpen);
+  const [videoError, setVideoError] = useState(false);
 
   return (
     <div className="mb-8 border border-gold/20 rounded-xl overflow-hidden shadow-lg shadow-black/30">
@@ -135,12 +136,28 @@ const MenuSection = ({ category, onSelectDish, isInitiallyOpen }: MenuSectionPro
           className="relative h-48 group cursor-pointer" 
           onClick={() => setIsOpen(!isOpen)}
         >
+          {/* Featured Image (Always rendered as background/fallback) */}
           <img 
-            src={category.featuredImage} 
-            alt={category.title}
-            className="absolute inset-0 w-full h-full object-cover"
-            loading="lazy"
+              src={category.featuredImage} 
+              alt={category.title}
+              className="absolute inset-0 w-full h-full object-cover"
+              loading="lazy"
           />
+          
+          {/* Video Layer (Rendered on top if available and not errored) */}
+          {category.video && !videoError && (
+             <video
+                src={category.video}
+                className="absolute inset-0 w-full h-full object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
+                onError={() => setVideoError(true)}
+             />
+          )}
+
+          {/* Dark Overlay & Title */}
           <div className="absolute inset-0 bg-black/60 flex items-center justify-center p-4 transition-all duration-300 group-hover:bg-black/50">
             <h3 className="text-3xl font-serif text-white text-shadow-gold text-center">{category.title}</h3>
           </div>
